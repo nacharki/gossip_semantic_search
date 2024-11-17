@@ -32,7 +32,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 ```
 ├── frontend/                  
     ├── streatmlit_app.py                       # Streamlit app for the frontend 
-├── backend/.py                                 
+├── backend/                                
     ├── gemini_embedding.py                     # Module for gemini embedding functions
     ├── scrap_and_generate_embeddings.py        # Python script for scrapping articles and generate embeddings
     ├── search_similarity.py                    # Python script for searching similarity given a query
