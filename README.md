@@ -122,11 +122,11 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 
 First example: searching for 'TPMP' program and displaying results:
 
-![first_example](images\tpmp_search.png)
+![first_example](https://github.com/nacharki/gossip_semantic_search/blob/master/images/famille_royale_search.png)
 
 Second example: search for 'famille royale' and displaying results:
 
-![second_example](images\famille_royale_search.png)
+![second_example](https://github.com/nacharki/gossip_semantic_search/blob/master/images/famille_royale_search.png)
 
 
 ## License
