@@ -10,14 +10,14 @@ sys.path.append(backend_path)
 
 # Internal imports
 from utils_search import search_similar_articles  # noqa: E402
-from gemini_embeddings import Initialize_embeddings_and_chromadb  # noqa: E402
+from gemini_embeddings import initialize_embeddings_and_chromadb  # noqa: E402
 
 
 def get_search_results(query: str, n_results: int):
     """Direct search function that uses backend functionality"""
     try:
         # Initialize the GeminiEmbeddingFunction and ChromaDB collection with query mode
-        embedding_function, chroma_db = Initialize_embeddings_and_chromadb(document_mode=False)
+        embedding_function, chroma_db = initialize_embeddings_and_chromadb(document_mode=False)
         # Search for articles and aggregate metadata
         agg_metadata = search_similar_articles(query, embedding_function, chroma_db, n_results)
 

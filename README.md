@@ -15,7 +15,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
   - [Running the Streamlit App](#running-the-streamlit-app)
 - [License](#license)
 
----
+
 
 ## Features
 
@@ -25,7 +25,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 - **Interactive Frontend**: Provides a user-friendly interface built with Streamlit for easy user interaction.
 - **Metadata Display**: Presents search results along with relevant metadata like title, author, publication date, and snippets.
 
----
+
 
 ## Project Structure
 
@@ -50,7 +50,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 
 ```
 
----
+
 
 ## Installation
 
@@ -67,7 +67,6 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
    pip install -r requirements.txt
    ```
 
----
 
 ## Usage
 
@@ -118,16 +117,22 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
    - Click the **Search** button to retrieve results.
    - View the articles along with their metadata and content snippets.
 
----
 
 ## Examples of use
----
+
+First example: searching for 'TPMP' program and displaying results:
+
+![Alt text](images\tpmp_search.png)
+
+Second example: search for 'famille royale' and displaying results:
+
+![Alt text](images\famille_royale_search.png)
+
 
 ## License
 
 This project is licensed under the MIT License.
 
----
 
 ## Future Improvements
 
