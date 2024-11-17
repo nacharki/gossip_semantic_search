@@ -114,7 +114,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 2. **Using the App**
 
    - Open the provided URL in  `http://localhost:8501`.
-   - Enter your search query in the input field and the maximal number of results to show
+   - Enter a search query in the input field and the maximal number of results to show
    - Click the **Search** button to retrieve results.
    - View the articles along with their metadata and content snippets.
 
