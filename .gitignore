@@ -1,0 +1,9 @@
+// Purpose: Ignore files and directories in git
+# Ignore the virtual environment
+.venv
+# Ignore the python cache
+*.pyc
+# Ignore .env files
+.env
+# Ignore pycache files
+__pycache__
