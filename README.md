@@ -122,11 +122,11 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 
 First example: searching for 'TPMP' program and displaying results:
 
-![Alt text](images\tpmp_search.png)
+![first_example](images\tpmp_search.png)
 
 Second example: search for 'famille royale' and displaying results:
 
-![Alt text](images\famille_royale_search.png)
+![second_example](images\famille_royale_search.png)
 
 
 ## License
