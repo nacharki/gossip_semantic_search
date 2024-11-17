@@ -144,7 +144,7 @@ This project is licensed under the MIT License.
 
   - Allow filtering by date, author, or categories.
 
-- ** Miscellations coding improvements: **
+- **Miscellations coding improvements:**
   - Handle some edge-cases and exceptions in the code.
   - Optimize embeddings articles with token chunking.
   - Include more exhaustive tests: integration and end-to-end tests.
