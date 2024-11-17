@@ -11,7 +11,7 @@ A semantic search engine for French gossip websites **vsd.fr** and **public.fr**
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
-  - [Data Extraction and Embedding](#data-extraction-and-embedding)
+  - [Semantic search using embeddings](#semantic-search-using-embeddings)
   - [Running the Streamlit App](#running-the-streamlit-app)
 - [License](#license)
 
