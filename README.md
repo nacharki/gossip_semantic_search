@@ -1,7 +1,25 @@
-
 # Gossip Semantic Search
 
 A semantic search engine for French gossip websites **vsd.fr** and **public.fr**. This application allows users to search for articles semantically, providing more accurate and context-aware search results compared to traditional keyword-based search engines.
+
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/streamlit-1.30+-green.svg)](https://streamlit.io/)
+[![ChromaDB](https://img.shields.io/badge/chromadb-0.4+-orange.svg)](https://www.trychroma.com/)
+[![Gemini](https://img.shields.io/badge/gemini--api-1.0+-purple.svg)](https://ai.google.dev/)
+[![BeautifulSoup](https://img.shields.io/badge/beautifulsoup4-4.0+-yellow.svg)](https://www.crummy.com/software/BeautifulSoup/)
+
+## 🛠️ Tech Stack
+
+### Core Technologies
+- **Python 3.8+**: Primary development language
+- **Google Gemini API**: For text embeddings generation
+- **ChromaDB**: Vector database for efficient similarity search
+- **BeautifulSoup4**: Web scraping and HTML parsing
+- **Pandas**: Data manipulation and processing
+- **NumPy**: Numerical computations
+- **Requests**: HTTP requests handling
+- **Streamlit**: Interactive web interface
+
 
 ## Table of Contents
 
@@ -149,7 +167,7 @@ This project is licensed under the MIT License.
 
   - Allow filtering by date, author, or categories.
 
-- **Miscellations coding improvements:**
+- **Miscellaneous coding improvements:**
   - Handle some edge-cases and exceptions in the code.
   - Optimize embeddings articles with token chunking.
   - Include more exhaustive tests: integration and end-to-end tests.
